@@ -2,7 +2,7 @@
  * @author kbenjabr 18 juil. 2017/11:19:15 Software Engineer At Capgemini Morocco
  *
  */
-package defaultmethod;
+package com.cap.defaultmethod;
 
 public class Engineer implements SoftwareEngineer {
 

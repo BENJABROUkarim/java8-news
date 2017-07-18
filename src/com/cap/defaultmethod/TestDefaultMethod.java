@@ -2,7 +2,7 @@
  * @author kbenjabr 18 juil. 2017/11:48:27 Software Engineer At Capgemini Morocco
  *
  */
-package defaultmethod;
+package com.cap.defaultmethod;
 
 public class TestDefaultMethod {
 

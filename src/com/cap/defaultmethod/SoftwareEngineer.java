@@ -2,7 +2,7 @@
  * @author kbenjabr 18 juil. 2017/11:14:26 Software Engineer At Capgemini Morocco
  *
  */
-package defaultmethod;
+package com.cap.defaultmethod;
 
 public interface SoftwareEngineer {
 	/** Pas d'implémentation - comme en Java 7 et antérieur */
