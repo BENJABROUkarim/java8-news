@@ -16,19 +16,17 @@ public class ForeachExample {
 		items.put("E", 50);
 		items.put("F", 60);
 
-		// System.out.println("résultat parcours de map java version <= 7");
-		// for (Map.Entry<String, Integer> entry : items.entrySet()) {
-		// System.out.println("Item : " + entry.getKey() + " Count : " +
-		// entry.getValue());
-		// }
-		// System.out.println("-----------------------------------------------");
-		// System.out.println("résultat parcours de map java version 8");
-		// items.forEach((k, v) -> System.out.println("Item : " + k + " Count :
-		// " + v));
-		
-		items.forEach((k,v)->{
+		System.out.println("résultat parcours de map java version <= 7");
+		for (Map.Entry<String, Integer> entry : items.entrySet()) {
+			System.out.println("Item : " + entry.getKey() + " Count : " + entry.getValue());
+		}
+		System.out.println("-----------------------------------------------");
+		System.out.println("résultat parcours de map java version 8");
+		items.forEach((k, v) -> System.out.println("Item : " + k + " Count :" + v));
+
+		items.forEach((k, v) -> {
 			System.out.println("Item : " + k + " Count : " + v);
-			if("E".equals(k)){
+			if ("E".equals(k)) {
 				System.out.println("Hello E");
 			}
 		});
