@@ -2,7 +2,7 @@
  * @author kbenjabr 8 déc. 2017/15:56:43 Software Engineer At Capgemini Morocco
  *
  */
-package com.cap.streams.filter;
+package com.cap.streams.filter.avantjava8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
